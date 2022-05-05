@@ -72,7 +72,7 @@ public class Main {
 
         studentsTwo = aditionalTask.returnFirstName();
         studentsTwo.stream().collect(Collectors.toList());
-        System.out.println("Первый элемент отсортированной коллекции: ");
+        System.out.println("Первый элемент отсортированной коллекции: " + studentsTwo.toString());
 
     }
 }
